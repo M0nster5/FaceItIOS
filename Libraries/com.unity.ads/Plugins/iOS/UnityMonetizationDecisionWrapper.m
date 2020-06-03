@@ -1,5 +1,4 @@
 #import <UnityAds/UnityMonetization.h>
-#import <Unity/UnityInterface.h>
 #import "UnityAdsUtilities.h"
 #import "UnityJsonAdditions.h"
 

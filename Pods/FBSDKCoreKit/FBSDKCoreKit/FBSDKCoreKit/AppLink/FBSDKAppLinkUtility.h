@@ -16,10 +16,6 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import "TargetConditionals.h"
-
-#if !TARGET_OS_TV
-
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -79,15 +75,6 @@ NS_SWIFT_NAME(AppLinkUtility)
 */
 + (nullable NSString *)appInvitePromotionCodeFromURL:(NSURL *)url;
 
-/**
- Check whether the scheme is defined in the app's URL schemes.
- @param scheme the scheme of App Link URL
- @return YES if the scheme is defined, otherwise NO.
-*/
-+ (BOOL)isMatchURLScheme:(NSString *)scheme;
-
 @end
 
 NS_ASSUME_NONNULL_END
-
-#endif

@@ -11,7 +11,6 @@
 #endif
 #import <GameController/GameController.h>
 
-#include "OrientationSupport.h"
 #include "Unity/UnityInterface.h"
 
 #include "Vector3.h"

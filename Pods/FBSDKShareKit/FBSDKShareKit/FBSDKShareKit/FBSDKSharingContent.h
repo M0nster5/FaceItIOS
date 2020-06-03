@@ -18,8 +18,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "FBSDKCoreKitImport.h"
-#import "FBSDKSharingValidation.h"
+#import <FBSDKCoreKit/FBSDKCopying.h>
+#import <FBSDKShareKit/FBSDKSharingValidation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -20,14 +20,15 @@
 
 #import <Foundation/Foundation.h>
 
-#ifdef FBSDKCOCOAPODS
+#import <FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h>
+#import <FBSDKShareKit/FBSDKShareConstants.h>
+
+#ifdef COCOAPODS
 #import <FBSDKCoreKit/FBSDKCoreKit+Internal.h>
 #else
 #import "FBSDKCoreKit+Internal.h"
 #endif
-
 #import "FBSDKShareDefines.h"
-#import "FBSDKShareConstants.h"
 
 static NSString *const FBSDKVideoUploaderDefaultGraphNode = @"me";
 static NSString *const FBSDKVideoUploaderEdge = @"videos";

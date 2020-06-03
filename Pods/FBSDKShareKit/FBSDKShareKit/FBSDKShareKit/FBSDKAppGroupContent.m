@@ -18,18 +18,7 @@
 
 #import "FBSDKAppGroupContent.h"
 
-#import "TargetConditionals.h"
-
-#if TARGET_OS_TV
-
-NSString *NSStringFromFBSDKAppGroupPrivacy(AppGroupPrivacy privacy)
-{
-  return @"Not available for tvOS";
-}
-
-#else
-
-#ifdef FBSDKCOCOAPODS
+#ifdef COCOAPODS
 #import <FBSDKCoreKit/FBSDKCoreKit+Internal.h>
 #else
 #import "FBSDKCoreKit+Internal.h"
@@ -122,5 +111,3 @@ NSString *NSStringFromFBSDKAppGroupPrivacy(FBSDKAppGroupPrivacy privacy)
 }
 
 @end
-
-#endif

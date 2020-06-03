@@ -1,1 +1,0 @@
-../../../FBSDKGamingServicesKit/FBSDKGamingServicesKit/FBSDKGamingServicesKit/include/FBSDKGamingVideoUploaderConfiguration.h

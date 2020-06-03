@@ -16,13 +16,10 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import "TargetConditionals.h"
-
-#if !TARGET_OS_TV
-
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "FBSDKLikeObjectType.h"
+#import <FBSDKShareKit/FBSDKLikeObjectType.h>
 
 @protocol FBSDKLikeDialogDelegate;
 
@@ -52,5 +49,3 @@ NS_SWIFT_NAME(LikeDialogDelegate)
 - (void)likeDialog:(FBSDKLikeDialog *)likeDialog didFailWithError:(NSError *)error;
 
 @end
-
-#endif

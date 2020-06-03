@@ -16,17 +16,9 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import "TargetConditionals.h"
-
-#if !TARGET_OS_TV
-
 #import <Foundation/Foundation.h>
 
-#if SWIFT_PACKAGE
-#import "FBSDKCopying.h"
-#else
 #import <FBSDKCoreKit/FBSDKCopying.h>
-#endif
 
 #import "FBSDKBridgeAPIProtocolType.h"
 
@@ -53,5 +45,3 @@ NS_SWIFT_NAME(BridgeAPIRequest)
 - (NSURL *)requestURL:(NSError *__autoreleasing *)errorRef;
 
 @end
-
-#endif

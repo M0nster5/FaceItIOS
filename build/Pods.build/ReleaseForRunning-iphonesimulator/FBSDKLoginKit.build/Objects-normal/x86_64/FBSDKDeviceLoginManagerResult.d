@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.m \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Target\ Support\ Files/FBSDKLoginKit/FBSDKLoginKit-prefix.pch \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/Internal/FBSDKDeviceLoginManagerResult+Internal.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKCoreKit.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKAccessToken.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKCopying.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequestConnection.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppEvents.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKApplicationDelegate.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKButton.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKConstants.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequest.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKSettings.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKTestUsersManager.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKUtility.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLink.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkTarget.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkNavigation.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkResolving.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkResolver.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKAppLinkUtility.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKMeasurementEvent.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKMutableCopying.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKProfile.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKProfilePictureView.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKURL.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/Headers/Private/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h \
+  /Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.h

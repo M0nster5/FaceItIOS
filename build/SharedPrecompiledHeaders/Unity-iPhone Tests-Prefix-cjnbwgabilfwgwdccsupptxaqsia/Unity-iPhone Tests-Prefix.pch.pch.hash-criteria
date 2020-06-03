@@ -1,0 +1,37 @@
+-x
+objective-c
+-target
+arm64-apple-ios13.5
+-std=c11
+-fobjc-arc
+-fmodules
+-gmodules
+-fmodules-cache-path=/Users/connorkordes/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+-fpascal-strings
+-Os
+-fno-common
+-DNS_BLOCK_ASSERTIONS=1
+-DOBJC_OLD_DISPATCH_PROTOTYPES=0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk
+-fno-objc-exceptions
+-g
+-I/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/build/ReleaseForRunning-iphoneos/include
+-I/Classes/Unity
+-I/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/build/Unity-iPhone.build/ReleaseForRunning-iphoneos/Unity-iPhone Tests.build/DerivedSources-normal/arm64
+-F/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/build/ReleaseForRunning-iphoneos
+-F/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/../node_modules/react-native-facebook-login/FacebookSDK
+-F/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Frameworks/com.unity.ads/Plugins/iOS
+-iframework
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks
+-iframework
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks
+-iframework
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks
+-iframework
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks
+-mno-thumb
+aarch64-apple-darwin19.4.0
+"4.2.1 Compatible Apple LLVM 11.0.3 (clang-1103.0.32.62)"
+SDK_PRODUCT_BUILD_VERSION=17F65
+17F65

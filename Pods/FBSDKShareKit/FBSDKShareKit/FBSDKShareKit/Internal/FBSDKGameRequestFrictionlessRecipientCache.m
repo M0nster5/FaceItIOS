@@ -16,19 +16,11 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import "TargetConditionals.h"
-
-#if !TARGET_OS_TV
-
 #import "FBSDKGameRequestFrictionlessRecipientCache.h"
 
-#if defined BUCK || defined FBSDKCOCOAPODS
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-#else
-@import FBSDKCoreKit;
-#endif
 
-#ifdef FBSDKCOCOAPODS
+#ifdef COCOAPODS
 #import <FBSDKCoreKit/FBSDKCoreKit+Internal.h>
 #else
 #import "FBSDKCoreKit+Internal.h"
@@ -69,13 +61,8 @@
   if (!recipientIDArray && [recipients isKindOfClass:[NSString class]]) {
     recipientIDArray = [recipients componentsSeparatedByString:@","];
   }
-  if (recipientIDArray) {
-    NSSet *recipientIDs = [[NSSet alloc]
-                           initWithArray:recipientIDArray];
-    return [recipientIDs isSubsetOfSet:_recipientIDs];
-  } else {
-    return NO;
-  }
+  NSSet *recipientIDs = [[NSSet alloc] initWithArray:recipientIDArray];
+  return [recipientIDs isSubsetOfSet:_recipientIDs];
 }
 
 - (void)updateWithResults:(NSDictionary *)results
@@ -116,5 +103,3 @@
 }
 
 @end
-
-#endif

@@ -18,6 +18,8 @@
 
 #import "FBSDKGraphRequestBody.h"
 
+#import "../../Basics/Internal/FBSDKBasicUtility.h"
+
 #import "FBSDKConstants.h"
 #import "FBSDKCrypto.h"
 #import "FBSDKGraphRequestDataAttachment.h"

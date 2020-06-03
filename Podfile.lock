@@ -1,40 +1,56 @@
 PODS:
-  - FBSDKCoreKit (6.5.2):
-    - FBSDKCoreKit/Basics (= 6.5.2)
-    - FBSDKCoreKit/Core (= 6.5.2)
-  - FBSDKCoreKit/Basics (6.5.2)
-  - FBSDKCoreKit/Core (6.5.2):
+  - Bolts (1.9.1):
+    - Bolts/AppLinks (= 1.9.1)
+    - Bolts/Tasks (= 1.9.1)
+  - Bolts/AppLinks (1.9.1):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.1)
+  - FBSDKCoreKit (5.6.0):
+    - FBSDKCoreKit/Basics (= 5.6.0)
+    - FBSDKCoreKit/Core (= 5.6.0)
+  - FBSDKCoreKit/Basics (5.6.0)
+  - FBSDKCoreKit/Core (5.6.0):
     - FBSDKCoreKit/Basics
-  - FBSDKGamingServicesKit (6.5.2):
-    - FBSDKShareKit (~> 6.5.2)
-  - FBSDKLoginKit (6.5.2):
-    - FBSDKLoginKit/Login (= 6.5.2)
-  - FBSDKLoginKit/Login (6.5.2):
-    - FBSDKCoreKit (~> 6.5.2)
-  - FBSDKShareKit (6.5.2):
-    - FBSDKShareKit/Share (= 6.5.2)
-  - FBSDKShareKit/Share (6.5.2):
-    - FBSDKCoreKit (~> 6.5.2)
+  - FBSDKLoginKit (5.6.0):
+    - FBSDKLoginKit/Login (= 5.6.0)
+  - FBSDKLoginKit/Login (5.6.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKShareKit (5.6.0):
+    - FBSDKShareKit/Share (= 5.6.0)
+  - FBSDKShareKit/Share (5.6.0):
+    - FBSDKCoreKit (~> 5.0)
+  - MotionKit (0.8.1)
 
 DEPENDENCIES:
-  - FBSDKCoreKit (~> 6.2)
-  - FBSDKGamingServicesKit (~> 6.2)
-  - FBSDKLoginKit (~> 6.2)
-  - FBSDKShareKit (~> 6.2)
+  - Bolts
+  - FBSDKCoreKit (= 5.6)
+  - FBSDKLoginKit (= 5.6)
+  - FBSDKShareKit (= 5.6)
+  - MotionKit (from `https://github.com/MHaroonBaig/MotionKit.git`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Bolts
     - FBSDKCoreKit
-    - FBSDKGamingServicesKit
     - FBSDKLoginKit
     - FBSDKShareKit
 
-SPEC CHECKSUMS:
-  FBSDKCoreKit: ada5c8a05188daefc9addb985c52b8a1b26da519
-  FBSDKGamingServicesKit: cd90b0d5468a50a4bafc1d3bcfe0641ee8305357
-  FBSDKLoginKit: caa165495afa29a12324cb2307fe6e5b33783142
-  FBSDKShareKit: d0538e2385480d8b2901468c80abcf22aeaf2abd
+EXTERNAL SOURCES:
+  MotionKit:
+    :git: https://github.com/MHaroonBaig/MotionKit.git
 
-PODFILE CHECKSUM: 986e14b8b5ff4a5ae995d4febcdedf40a2c394de
+CHECKOUT OPTIONS:
+  MotionKit:
+    :commit: 6cd6e6523ba60dee73b37a1426b8da1626a9d403
+    :git: https://github.com/MHaroonBaig/MotionKit.git
+
+SPEC CHECKSUMS:
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  FBSDKCoreKit: d6655a343868d4bb5c29a60859bab07c3be14a0b
+  FBSDKLoginKit: c5a623de88a6b0cda35b35582921f6cec2efcc36
+  FBSDKShareKit: 0d8c4cfd5c1f185d5f9c26d79758b141086e1251
+  MotionKit: a88a7d7b5ed6652793a3744f6ca58227d8804236
+
+PODFILE CHECKSUM: f4f6a71cbc98646f9f117d068de9e56bca002b3b
 
 COCOAPODS: 1.9.3

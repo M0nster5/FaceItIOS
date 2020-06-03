@@ -3,6 +3,7 @@
 //
 
 #include "Preprocessor.h"
+#include <stdbool.h>
 
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
@@ -10,7 +11,6 @@
 #endif
 
 #include "UnityTrampolineConfigure.h"
-#include "UnityInterface.h"
 
 #ifndef __OBJC__
     #if USE_IL2CPP_PCH

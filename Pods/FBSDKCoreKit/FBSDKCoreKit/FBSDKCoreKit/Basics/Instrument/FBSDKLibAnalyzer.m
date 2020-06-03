@@ -40,9 +40,7 @@ static NSMutableDictionary<NSString *, NSString *> *_methodMapping;
       [self addClass:object_getClass(class) isClassMethod:YES];
     }
   }
-  @synchronized (_methodMapping) {
-    return [_methodMapping copy];
-  }
+  return [_methodMapping copy];
 }
 
 #pragma mark - private methods
@@ -118,9 +116,7 @@ static NSMutableDictionary<NSString *, NSString *> *_methodMapping;
                               NSStringFromSelector(selector)];
 
       if (methodAddress && methodName) {
-        @synchronized (_methodMapping) {
-          [_methodMapping setObject:methodName forKey:methodAddress];
-        }
+        [_methodMapping setObject:methodName forKey:methodAddress];
       }
     }
   }
@@ -151,11 +147,6 @@ static NSMutableDictionary<NSString *, NSString *> *_methodMapping;
       nonSDKMethodCount == 0 ?: [symbolicatedCallstack addObject:[NSString stringWithFormat:@"(%ld DEV METHODS)", (long)nonSDKMethodCount]];
       nonSDKMethodCount = 0;
       NSString *methodName = [methodMapping objectForKey:methodAddress];
-
-      // filter out cxx_destruct
-      if ([methodName containsString:@".cxx_destruct"]) {
-        return nil;
-      }
       [symbolicatedCallstack addObject:[NSString stringWithFormat:@"%@%@", methodName, [self getOffset:addressString secondString:methodAddress]]];
     } else {
       nonSDKMethodCount++;

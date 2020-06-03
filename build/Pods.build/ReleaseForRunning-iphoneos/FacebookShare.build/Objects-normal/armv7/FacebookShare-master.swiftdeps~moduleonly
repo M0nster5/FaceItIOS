@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "fa33dc304bcf172366c1656f3ae953e1"
+build_time: [1591055784, 841534000]
+inputs:
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FacebookShare/Sources/Share/Enums+Extensions.swift": [9223372036, 854775807]
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FacebookShare/Sources/Share/FBSDKShareKit+Typealiases.swift": [9223372036, 854775807]

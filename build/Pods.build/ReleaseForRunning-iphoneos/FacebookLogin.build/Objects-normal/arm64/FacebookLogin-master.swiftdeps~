@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "e60d4a499a311de349f0497c743cfd17"
+build_time: [1591055574, 87906000]
+inputs:
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FacebookLogin/Sources/Login/FBLoginButton.swift": [9223372036, 854775807]
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FacebookLogin/Sources/Login/FBSDKLoginKit+Typealiases.swift": [9223372036, 854775807]
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FacebookLogin/Sources/Login/LoginManager.swift": [9223372036, 854775807]

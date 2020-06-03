@@ -1,0 +1,12 @@
+module MotionKit {
+  umbrella header "MotionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module MotionKit.Swift {
+  header "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/build/ReleaseForRunning-iphonesimulator/MotionKit/Swift Compatibility Header/MotionKit-Swift.h"
+  requires objc
+}

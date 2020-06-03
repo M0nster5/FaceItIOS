@@ -16,14 +16,10 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import "TargetConditionals.h"
-
-#if !TARGET_OS_TV
-
 #import <Foundation/Foundation.h>
 
-#import "FBSDKShareConstants.h"
-#import "FBSDKSharing.h"
+#import <FBSDKShareKit/FBSDKSharing.h>
+#import <FBSDKShareKit/FBSDKShareConstants.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -32,17 +28,18 @@ NS_ASSUME_NONNULL_BEGIN
 
  SUPPORTED SHARE TYPES
  - FBSDKShareLinkContent
+ - FBSDKShareMessengerOpenGraphMusicTemplateContent
+ - FBSDKShareMessengerMediaTemplateContent
+ - FBSDKShareMessengerGenericTemplateContent
 
  UNSUPPORTED SHARE TYPES (DEPRECATED AUGUST 2018)
  - FBSDKShareOpenGraphContent
  - FBSDKSharePhotoContent
  - FBSDKShareVideoContent
- - FBSDKShareMessengerOpenGraphMusicTemplateContent
- - FBSDKShareMessengerMediaTemplateContent
- - FBSDKShareMessengerGenericTemplateContent
  - Any other types that are not one of the four supported types listed above
  */
 NS_SWIFT_NAME(MessageDialog)
+DEPRECATED_FOR_MESSENGER
 @interface FBSDKMessageDialog : NSObject <FBSDKSharingDialog>
 
 /**
@@ -66,5 +63,3 @@ NS_SWIFT_UNAVAILABLE("Use init(content:delegate:).show() instead");
 @end
 
 NS_ASSUME_NONNULL_END
-
-#endif

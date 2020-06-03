@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "aa0f4f99a07a35ca6ab90c83c5b3c0ea"
+build_time: [1591055564, 474858000]
+inputs:
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FacebookCore/Sources/Core/AccessToken.swift": [9223372036, 854775807]
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FacebookCore/Sources/Core/Dictionary+KeyValueMap.swift": [9223372036, 854775807]
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FacebookCore/Sources/Core/FBProfilePictureView.swift": [9223372036, 854775807]
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FacebookCore/Sources/Core/FBSDKCoreKit+Typealiases.swift": [9223372036, 854775807]
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FacebookCore/Sources/Core/Permission.swift": [9223372036, 854775807]
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/FacebookCore/Sources/Core/Settings.swift": [9223372036, 854775807]

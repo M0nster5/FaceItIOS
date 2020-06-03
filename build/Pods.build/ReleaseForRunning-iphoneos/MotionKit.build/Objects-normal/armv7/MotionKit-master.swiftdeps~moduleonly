@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "cbd5581942617438461ccc47bbd3f7f9"
+build_time: [1591137353, 477488000]
+inputs:
+  "/Users/connorkordes/Downloads/CubeSpin/iosBuild/CubeSpinIOS_5/Pods/MotionKit/MotionKit/MotionKit.swift": [9223372036, 854775807]

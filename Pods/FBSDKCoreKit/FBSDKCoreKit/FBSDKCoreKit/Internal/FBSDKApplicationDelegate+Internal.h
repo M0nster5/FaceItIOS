@@ -18,11 +18,7 @@
 
 #import <Foundation/Foundation.h>
 
-#if SWIFT_PACKAGE
-#import "FBSDKApplicationDelegate.h"
-#else
 #import <FBSDKCoreKit/FBSDKApplicationDelegate.h>
-#endif
 
 #import "FBSDKCoreKit+Internal.h"
 

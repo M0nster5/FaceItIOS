@@ -12,7 +12,7 @@ DEFINE_NOTIFICATION(kUnityHandleEventsForBackgroundURLSession);
 
 #undef DEFINE_NOTIFICATION
 
-void UnityRegisterAppDelegateListener(id<AppDelegateListener> obj)
+    void UnityRegisterAppDelegateListener(id<AppDelegateListener> obj)
 {
     #define REGISTER_SELECTOR(sel, notif_name)                  \
     if([obj respondsToSelector:sel])                            \

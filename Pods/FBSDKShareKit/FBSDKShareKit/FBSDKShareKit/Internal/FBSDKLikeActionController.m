@@ -16,21 +16,13 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import "TargetConditionals.h"
-
-#if !TARGET_OS_TV
-
 #import "FBSDKLikeActionController.h"
 
 #import <QuartzCore/QuartzCore.h>
 
-#if defined BUCK || defined FBSDKCOCOAPODS
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-#else
-@import FBSDKCoreKit;
-#endif
 
-#ifdef FBSDKCOCOAPODS
+#ifdef COCOAPODS
 #import <FBSDKCoreKit/FBSDKCoreKit+Internal.h>
 #else
 #import "FBSDKCoreKit+Internal.h"
@@ -139,11 +131,7 @@ static FBSDKLikeActionControllerCache *_cache = nil;
       NSURL *fileURL = [self _cacheFileURL];
       NSData *data = [[NSData alloc] initWithContentsOfURL:fileURL];
       if (data) {
-        #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_11_0
-          NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingFromData:data error:NULL];
-        #else
-          NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
-        #endif
+        NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
         unarchiver.requiresSecureCoding = YES;
         @try {
           _cache = [unarchiver decodeObjectOfClass:[FBSDKLikeActionControllerCache class]
@@ -188,11 +176,7 @@ static FBSDKLikeActionControllerCache *_cache = nil;
   if (!fileURL) {
     return;
   }
-#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_11_0
-  NSData *data = [NSKeyedArchiver archivedDataWithRootObject:_cache requiringSecureCoding:YES error:NULL];
-#else
   NSData *data = [NSKeyedArchiver archivedDataWithRootObject:_cache];
-#endif
   if (data) {
     [data writeToURL:fileURL atomically:YES];
   } else {
@@ -1023,5 +1007,3 @@ static void FBSDKLikeActionControllerAddRefreshRequests(FBSDKAccessToken *access
 }
 
 @end
-
-#endif

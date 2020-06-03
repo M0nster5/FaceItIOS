@@ -18,20 +18,14 @@
 
 #import <UIKit/UIKit.h>
 
-#if SWIFT_PACKAGE
-#import "FBSDKCoreKit.h"
-#else
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-#endif
 
-#if defined FBSDKCOCOAPODS || defined BUCK
+#ifdef COCOAPODS
 
 #if !TARGET_OS_TV
 #import "FBSDKViewHierarchy.h"
-#import "FBSDKViewHierarchyMacros.h"
+#import "FBSDKCodelessMacros.h"
 #import "FBSDKCodelessIndexer.h"
-#import "FBSDKMetadataIndexer.h"
-#import "FBSDKSuggestedEventsIndexer.h"
 #import "FBSDKCrypto.h"
 #import "FBSDKAudioResourceLoader.h"
 #import "FBSDKContainerViewController.h"
@@ -70,7 +64,6 @@
 #import "FBSDKInternalUtility.h"
 #import "FBSDKLogger.h"
 #import "FBSDKMath.h"
-#import "FBSDKMonitorHeaders.h"
 #import "FBSDKSettings+Internal.h"
 #import "FBSDKSwizzler.h"
 #import "FBSDKTypeUtility.h"
@@ -100,11 +93,9 @@
 #else
 
 #if !TARGET_OS_TV
-#import "../AppEvents/Internal/ViewHierarchy/FBSDKViewHierarchy.h"
-#import "../AppEvents/Internal/ViewHierarchy/FBSDKViewHierarchyMacros.h"
+#import "../AppEvents/Internal/Codeless/FBSDKViewHierarchy.h"
+#import "../AppEvents/Internal/Codeless/FBSDKCodelessMacros.h"
 #import "../AppEvents/Internal/Codeless/FBSDKCodelessIndexer.h"
-#import "../AppEvents/Internal/AAM/FBSDKMetadataIndexer.h"
-#import "../AppEvents/Internal/SuggestedEvents/FBSDKSuggestedEventsIndexer.h"
 #import "Cryptography/FBSDKCrypto.h"
 #import "FBSDKAudioResourceLoader.h"
 #import "FBSDKContainerViewController.h"
@@ -129,7 +120,7 @@
 #import "../AppEvents/Internal/FBSDKAppEventsState.h"
 #import "../AppEvents/Internal/FBSDKAppEventsStateManager.h"
 #import "../AppEvents/Internal/FBSDKAppEventsUtility.h"
-#import "../AppEvents/Internal/Integrity/FBSDKRestrictiveDataFilterManager.h"
+#import "../AppEvents/Internal/FBSDKRestrictiveDataFilterManager.h"
 #import "../AppEvents/Internal/FBSDKTimeSpentData.h"
 #import "../AppEvents/Internal/FBSDKUserDataStore.h"
 #import "Base64/FBSDKBase64.h"
@@ -152,7 +143,6 @@
 #import "../Basics/Instrument/FBSDKCrashHandler.h"
 #import "../Basics/Instrument/FBSDKLibAnalyzer.h"
 #import "../Basics/Instrument/FBSDKCrashObserving.h"
-#import "Monitoring/FBSDKMonitorHeaders.h"
 #import "Network/FBSDKGraphRequest+Internal.h"
 #import "Network/FBSDKGraphRequestConnection+Internal.h"
 #import "Network/FBSDKGraphRequestMetadata.h"
