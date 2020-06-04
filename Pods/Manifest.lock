@@ -1,4 +1,12 @@
 PODS:
+  - AppCenter (3.2.0):
+    - AppCenter/Analytics (= 3.2.0)
+    - AppCenter/Crashes (= 3.2.0)
+  - AppCenter/Analytics (3.2.0):
+    - AppCenter/Core
+  - AppCenter/Core (3.2.0)
+  - AppCenter/Crashes (3.2.0):
+    - AppCenter/Core
   - Bolts (1.9.1):
     - Bolts/AppLinks (= 1.9.1)
     - Bolts/Tasks (= 1.9.1)
@@ -22,6 +30,7 @@ PODS:
   - MotionKit (0.8.1)
 
 DEPENDENCIES:
+  - AppCenter
   - Bolts
   - FBSDKCoreKit (= 5.6)
   - FBSDKLoginKit (= 5.6)
@@ -30,6 +39,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - AppCenter
     - Bolts
     - FBSDKCoreKit
     - FBSDKLoginKit
@@ -45,12 +55,13 @@ CHECKOUT OPTIONS:
     :git: https://github.com/MHaroonBaig/MotionKit.git
 
 SPEC CHECKSUMS:
+  AppCenter: ca66175050d538b157959382dd43f1ab96cdab84
   Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
   FBSDKCoreKit: d6655a343868d4bb5c29a60859bab07c3be14a0b
   FBSDKLoginKit: c5a623de88a6b0cda35b35582921f6cec2efcc36
   FBSDKShareKit: 0d8c4cfd5c1f185d5f9c26d79758b141086e1251
   MotionKit: a88a7d7b5ed6652793a3744f6ca58227d8804236
 
-PODFILE CHECKSUM: f4f6a71cbc98646f9f117d068de9e56bca002b3b
+PODFILE CHECKSUM: 2a938c9e407fc1deab44f894d90b47de1512fc11
 
 COCOAPODS: 1.9.3

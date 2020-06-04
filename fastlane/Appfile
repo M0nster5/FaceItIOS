@@ -1,0 +1,8 @@
+app_identifier("com.CandE.CubeSpin") # The bundle identifier of your app
+apple_id("chkordes@gmail.com") # Your Apple email address
+
+itc_team_id("121621247") # App Store Connect Team ID
+team_id("ZV2M6R3PS3") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

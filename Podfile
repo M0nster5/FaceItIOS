@@ -3,6 +3,7 @@ platform :ios, '13.5'
 install! 'cocoapods', :deterministic_uuids => false
 
 target 'UnityFramework' do
+pod 'AppCenter'
 pod 'MotionKit', :git => 'https://github.com/MHaroonBaig/MotionKit.git'
 pod 'FBSDKLoginKit', '5.6'
 pod 'FBSDKCoreKit', '5.6'
@@ -11,10 +12,11 @@ pod 'Bolts'
 
 end
 
-post_install do |installer|   
-installer.pods_project.targets.each do |target|       
-target.build_configurations.each do |config|         
-config.build_settings['ENABLE_BITCODE'] = 'YES'    
-end  
-end 
-end 
+    post_install do |installer_representation|
+        installer_representation.pods_project.targets.each do |target|
+            target.build_configurations.each do |config|
+                config.build_settings['PUBLIC_HEADERS_FOLDER_PATH'] = [""];
+                config.build_settings['PRIVATE_HEADERS_FOLDER_PATH'] = [""];
+            end
+        end
+    end
