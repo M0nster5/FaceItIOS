@@ -1,6 +1,0 @@
-module MotionKit {
-  umbrella header "MotionKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

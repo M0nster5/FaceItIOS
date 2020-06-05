@@ -4,7 +4,6 @@ install! 'cocoapods', :deterministic_uuids => false
 
 target 'UnityFramework' do
 pod 'AppCenter'
-pod 'MotionKit', :git => 'https://github.com/MHaroonBaig/MotionKit.git'
 pod 'FBSDKLoginKit', '5.6'
 pod 'FBSDKCoreKit', '5.6'
 pod 'FBSDKShareKit', '5.6'
@@ -20,3 +19,5 @@ end
             end
         end
     end
+
+

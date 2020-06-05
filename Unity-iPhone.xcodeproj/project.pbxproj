@@ -70,6 +70,9 @@
 		29602307248872E800740828 /* Metal.framework in Sources */ = {isa = PBXBuildFile; fileRef = 00444AE1BE5BBF8BEA63655B /* Metal.framework */; };
 		29602308248872E800740828 /* Accelerate.framework in Sources */ = {isa = PBXBuildFile; fileRef = 73244882AEB50F87A4E5B1CF /* Accelerate.framework */; };
 		297E6C4A248995800006FA60 /* AppleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297E6C49248995800006FA60 /* AppleDelegate.swift */; };
+		297E6C4B24899A270006FA60 /* CoreMotion.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29DE45EB2486E4F400F711DB /* CoreMotion.framework */; };
+		297E6C4C24899A340006FA60 /* CoreMotion.framework in Sources */ = {isa = PBXBuildFile; fileRef = 29DE45EB2486E4F400F711DB /* CoreMotion.framework */; };
+		297E6C5324899F8C0006FA60 /* CoreMotion.framework in Resources */ = {isa = PBXBuildFile; fileRef = 29DE45EB2486E4F400F711DB /* CoreMotion.framework */; };
 		29DE45EC2486E4F400F711DB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DE45EB2486E4F400F711DB /* CoreMotion.framework */; };
 		29DE45FD2486E5AE00F711DB /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DE45FC2486E5AE00F711DB /* libBolts.a */; };
 		29DE45FF2486E5AE00F711DB /* libFBSDKCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DE45FE2486E5AE00F711DB /* libFBSDKCoreKit.a */; };
@@ -79,7 +82,6 @@
 		29E845CA2485CE0900D9A7BC /* IUnityInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E845BE2485CE0900D9A7BC /* IUnityInterface.h */; };
 		56C56C9817D6015200616839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C56C9717D6015100616839 /* Images.xcassets */; };
 		68BB4ACD8E4F91452193272F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBE4000948BABD3A2CCF513 /* GameKit.framework */; };
-		7E81D5F26F1C8C88800864FA /* libPods-UnityFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8922BF95DC612644DF12D66 /* libPods-UnityFramework.a */; };
 		881248159422138D170D38EA /* LaunchScreen-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C5418289F0A79FFED48FBD /* LaunchScreen-iPad.storyboard */; };
 		8A20382D213D4B3C005E6C56 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A20382C213D4B3C005E6C56 /* AVKit.framework */; };
 		9BB84C168A05E185F57BB8A7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAD44279C0D9AA41E2018DA /* CoreTelephony.framework */; };
@@ -104,6 +106,16 @@
 		F5F243ADA2B94F059685987B /* LaunchScreen-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4541B0AF3426F960310ED8 /* LaunchScreen-iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		297E6C5124899A900006FA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D25AB9C213FB47800354C27;
+			remoteInfo = UnityFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		83D0C1FD0E6C8D7700EBCE5D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -111,6 +123,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				297E6C4B24899A270006FA60 /* CoreMotion.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,13 +140,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0044455854B5E03AF732D149 /* Pods-UnityFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnityFramework.debug.xcconfig"; path = "Target Support Files/Pods-UnityFramework/Pods-UnityFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		00444AE1BE5BBF8BEA63655B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		005D445280FB96AA6239175B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		035E4BE7BF70881544785A51 /* LaunchScreen-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreen-iPad.png"; sourceTree = SOURCE_ROOT; };
 		03F528621B447098000F4FB8 /* Il2CppOptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Il2CppOptions.cpp; sourceTree = "<group>"; };
 		0AAD44279C0D9AA41E2018DA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		0B732A6ECF19F36688C24B2D /* Pods-UnityFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnityFramework.release.xcconfig"; path = "Target Support Files/Pods-UnityFramework/Pods-UnityFramework.release.xcconfig"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Cube Spin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cube Spin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		292E68C92485B12D009F0881 /* facebook-unity-sdk-7.19.2.unitypackage */ = {isa = PBXFileReference; lastKnownFileType = file; path = "facebook-unity-sdk-7.19.2.unitypackage"; sourceTree = "<group>"; };
@@ -194,10 +205,7 @@
 		AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegisterFeatures.cpp; sourceTree = "<group>"; };
 		AAC3E38C1A68945900F6174A /* RegisterFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterFeatures.h; sourceTree = "<group>"; };
 		BF5F4F3598F2E24FA5F97CCF /* libiPhone-lib.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libiPhone-lib.dylib"; path = "Libraries/libiPhone-lib.dylib"; sourceTree = SOURCE_ROOT; };
-		CCDC23326105C1966ACA3FF5 /* Pods-UnityFramework.releaseforprofiling.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnityFramework.releaseforprofiling.xcconfig"; path = "Target Support Files/Pods-UnityFramework/Pods-UnityFramework.releaseforprofiling.xcconfig"; sourceTree = "<group>"; };
-		D8922BF95DC612644DF12D66 /* libPods-UnityFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnityFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A1C7240E80637F000160D3 /* RegisterMonoModules.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RegisterMonoModules.cpp; path = Libraries/RegisterMonoModules.cpp; sourceTree = SOURCE_ROOT; };
-		E230DBCEF27C7B62841407B1 /* Pods-UnityFramework.releaseforrunning.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnityFramework.releaseforrunning.xcconfig"; path = "Target Support Files/Pods-UnityFramework/Pods-UnityFramework.releaseforrunning.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,7 +255,6 @@
 				9E644BF195290CC9E98780EF /* StoreKit.framework in Frameworks */,
 				D31240678F86CB002D53CB78 /* GameKit.framework in Frameworks */,
 				E92C4CE6ACFC789B6634C65F /* Metal.framework in Frameworks */,
-				7E81D5F26F1C8C88800864FA /* libPods-UnityFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +264,6 @@
 		067456EB3E19687AEB52800E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0B732A6ECF19F36688C24B2D /* Pods-UnityFramework.release.xcconfig */,
-				CCDC23326105C1966ACA3FF5 /* Pods-UnityFramework.releaseforprofiling.xcconfig */,
-				E230DBCEF27C7B62841407B1 /* Pods-UnityFramework.releaseforrunning.xcconfig */,
-				0044455854B5E03AF732D149 /* Pods-UnityFramework.debug.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -283,7 +286,7 @@
 			path = "../../../facebook-unity-sdk-7.19.2/FacebookSDK";
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+		29B97314FDCFA39411CA2CEA = {
 			isa = PBXGroup;
 			children = (
 				297E6C49248995800006FA60 /* AppleDelegate.swift */,
@@ -353,7 +356,6 @@
 				4BBE4000948BABD3A2CCF513 /* GameKit.framework */,
 				00444AE1BE5BBF8BEA63655B /* Metal.framework */,
 				73244882AEB50F87A4E5B1CF /* Accelerate.framework */,
-				D8922BF95DC612644DF12D66 /* libPods-UnityFramework.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -449,6 +451,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				297E6C5224899A900006FA60 /* PBXTargetDependency */,
+				297E6C5024899A8D0006FA60 /* PBXTargetDependency */,
 			);
 			name = "Unity-iPhone";
 			productName = "iPhone-target";
@@ -459,14 +463,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D25ABA6213FB47800354C27 /* Build configuration list for PBXNativeTarget "UnityFramework" */;
 			buildPhases = (
-				59A45BD095A28F140DD24127 /* [CP] Check Pods Manifest.lock */,
 				9D25AB98213FB47800354C27 /* Sources */,
 				9D25AB99213FB47800354C27 /* Frameworks */,
 				9D25AB9A213FB47800354C27 /* Headers */,
 				9D3DC87A221D90AB00B2960B /* ShellScript */,
 				9D25AB9B213FB47800354C27 /* Resources */,
 				6FC648B4A235EAC27C8AA9EC /* Unity Process symbols */,
-				FC827B9940622692385D22E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -512,9 +514,9 @@
 				ja,
 				fr,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
 			packageReferences = (
-				292E68A82485A47E009F0881 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				292E68A82485A47E009F0881 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
@@ -531,6 +533,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				297E6C5324899F8C0006FA60 /* CoreMotion.framework in Resources */,
 				296022C6248872B400740828 /* libiconv.2.tbd in Resources */,
 				9D9DE4EA221D84E60049D9A1 /* Data in Resources */,
 				56C56C9817D6015200616839 /* Images.xcassets in Resources */,
@@ -550,35 +553,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		59A45BD095A28F140DD24127 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UnityFramework-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6FC648B4A235EAC27C8AA9EC /* Unity Process symbols */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Resources/DWARF/$EXECUTABLE_NAME,
+				"$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Resources/DWARF/$EXECUTABLE_NAME",
 			);
 			name = "Unity Process symbols";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,7 +572,7 @@
 			files = (
 			);
 			inputPaths = (
-				$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Resources/DWARF/$EXECUTABLE_NAME,
+				"$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Resources/DWARF/$EXECUTABLE_NAME",
 			);
 			name = "Unity Process symbols";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,23 +595,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PROJECT_DIR/MapFileParser.sh\"\n";
-		};
-		FC827B9940622692385D22E1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UnityFramework/Pods-UnityFramework-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UnityFramework/Pods-UnityFramework-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnityFramework/Pods-UnityFramework-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -675,6 +639,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				297E6C4C24899A340006FA60 /* CoreMotion.framework in Sources */,
 				2960227D2488724C00740828 /* Security.framework in Sources */,
 				2960227E2488724C00740828 /* MediaToolbox.framework in Sources */,
 				2960227F2488724C00740828 /* CoreText.framework in Sources */,
@@ -702,6 +667,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		297E6C5024899A8D0006FA60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 297E6C4F24899A8D0006FA60;
+		};
+		297E6C5224899A900006FA60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D25AB9C213FB47800354C27 /* UnityFramework */;
+			targetProxy = 297E6C5124899A900006FA60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5623C57B17FDCB0900090B9E /* InfoPlist.strings */ = {
@@ -736,6 +713,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_LOCATION = NO;
 				DEVELOPMENT_TEAM = ZV2M6R3PS3;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/com.unity.ads/Plugins/iOS",
@@ -752,6 +730,7 @@
 					"$(inherited)",
 					"FBSDKCOCOAPODS=1",
 				);
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_GENERATE_MAP_FILE = YES;
@@ -760,8 +739,10 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries",
+					"<Multiple",
+					"values>",
+					./Classes,
+					"\"$(SRCROOT)/Classes\"",
 				);
 				MARKETING_VERSION = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -780,6 +761,14 @@
 					"\"-force_load\"",
 					"\"-weak_Framework\"",
 					"--deep",
+					"\"CoreMotion\"",
+					"-framework",
+					CoreMotion,
+					"-framework",
+					Foundation,
+					"-weak-lSystem",
+					CoreMotion,
+					"-weak_framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CandE.CubeSpin;
 				PRODUCT_NAME = "Cube Spin";
@@ -821,6 +810,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_LOCATION = NO;
 				DEVELOPMENT_TEAM = ZV2M6R3PS3;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/com.unity.ads/Plugins/iOS",
@@ -835,6 +825,7 @@
 					"$(inherited)",
 					"FBSDKCOCOAPODS=1",
 				);
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_GENERATE_MAP_FILE = YES;
@@ -843,8 +834,10 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries",
+					"<Multiple",
+					"values>",
+					./Classes,
+					"\"$(SRCROOT)/Classes\"",
 				);
 				MARKETING_VERSION = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -864,6 +857,14 @@
 					"\"-force_load\"",
 					"\"-weak_Framework\"",
 					"--deep",
+					"\"CoreMotion\"",
+					"-framework",
+					CoreMotion,
+					"-framework",
+					Foundation,
+					"-weak-lSystem",
+					CoreMotion,
+					"-weak_framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CandE.CubeSpin;
 				PRODUCT_NAME = "Cube Spin";
@@ -987,6 +988,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_LOCATION = NO;
 				DEVELOPMENT_TEAM = ZV2M6R3PS3;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/com.unity.ads/Plugins/iOS",
@@ -1001,6 +1003,7 @@
 					"$(inherited)",
 					"FBSDKCOCOAPODS=1",
 				);
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_GENERATE_MAP_FILE = YES;
@@ -1009,8 +1012,10 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries",
+					"<Multiple",
+					"values>",
+					./Classes,
+					"\"$(SRCROOT)/Classes\"",
 				);
 				MARKETING_VERSION = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1029,6 +1034,14 @@
 					"\"-force_load\"",
 					"\"-weak_Framework\"",
 					"--deep",
+					"\"CoreMotion\"",
+					"-framework",
+					CoreMotion,
+					"-framework",
+					Foundation,
+					"-weak-lSystem",
+					CoreMotion,
+					"-weak_framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CandE.CubeSpin;
 				PRODUCT_NAME = "Cube Spin";
@@ -1151,6 +1164,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEPLOYMENT_LOCATION = NO;
 				DEVELOPMENT_TEAM = ZV2M6R3PS3;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/com.unity.ads/Plugins/iOS",
@@ -1165,6 +1179,7 @@
 					"$(inherited)",
 					"FBSDKCOCOAPODS=1",
 				);
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_GENERATE_MAP_FILE = YES;
@@ -1173,8 +1188,10 @@
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries",
+					"<Multiple",
+					"values>",
+					./Classes,
+					"\"$(SRCROOT)/Classes\"",
 				);
 				MARKETING_VERSION = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1193,6 +1210,14 @@
 					"\"-force_load\"",
 					"\"-weak_Framework\"",
 					"--deep",
+					"\"CoreMotion\"",
+					"-framework",
+					CoreMotion,
+					"-framework",
+					Foundation,
+					"-weak-lSystem",
+					CoreMotion,
+					"-weak_framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CandE.CubeSpin;
 				PRODUCT_NAME = "Cube Spin";
@@ -1214,7 +1239,6 @@
 		};
 		9D25ABA7213FB47800354C27 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B732A6ECF19F36688C24B2D /* Pods-UnityFramework.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
@@ -1235,6 +1259,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1247,6 +1272,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Classes",
@@ -1265,8 +1291,10 @@
 					"@loader_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries",
+					"<Multiple",
+					"values>",
+					./Classes,
+					"\"$(SRCROOT)/Classes\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CFLAGS = (
@@ -1286,6 +1314,13 @@
 					"-Wl,-undefined,dynamic_lookup",
 					"-Wl,-exported_symbol,_il2cpp_*",
 					"--deep",
+					"\"CoreMotion\"",
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreMotion,
+					"-weak-lSystem",
+					"-weak_framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CandE.CubeSpin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1309,7 +1344,6 @@
 		};
 		9D25ABA8213FB47800354C27 /* ReleaseForProfiling */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCDC23326105C1966ACA3FF5 /* Pods-UnityFramework.releaseforprofiling.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
@@ -1330,6 +1364,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1342,6 +1377,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Classes",
@@ -1360,8 +1396,10 @@
 					"@loader_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries",
+					"<Multiple",
+					"values>",
+					./Classes,
+					"\"$(SRCROOT)/Classes\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
@@ -1382,6 +1420,13 @@
 					"-Wl,-undefined,dynamic_lookup",
 					"-Wl,-exported_symbol,_il2cpp_*",
 					"--deep",
+					"\"CoreMotion\"",
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreMotion,
+					"-weak-lSystem",
+					"-weak_framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CandE.CubeSpin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1405,7 +1450,6 @@
 		};
 		9D25ABA9213FB47800354C27 /* ReleaseForRunning */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E230DBCEF27C7B62841407B1 /* Pods-UnityFramework.releaseforrunning.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
@@ -1426,6 +1470,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1437,6 +1482,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Classes",
@@ -1455,8 +1501,10 @@
 					"@loader_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries",
+					"<Multiple",
+					"values>",
+					./Classes,
+					"\"$(SRCROOT)/Classes\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
@@ -1477,6 +1525,13 @@
 					"-Wl,-undefined,dynamic_lookup",
 					"-Wl,-exported_symbol,_il2cpp_*",
 					"--deep",
+					"\"CoreMotion\"",
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreMotion,
+					"-weak-lSystem",
+					"-weak_framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CandE.CubeSpin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1500,7 +1555,6 @@
 		};
 		9D25ABAA213FB47800354C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0044455854B5E03AF732D149 /* Pods-UnityFramework.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = (
@@ -1521,6 +1575,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1539,6 +1594,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Classes",
@@ -1557,8 +1613,10 @@
 					"@loader_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries",
+					"<Multiple",
+					"values>",
+					./Classes,
+					"\"$(SRCROOT)/Classes\"",
 				);
 				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1580,6 +1638,13 @@
 					"-Wl,-undefined,dynamic_lookup",
 					"-Wl,-exported_symbol,_il2cpp_*",
 					"--deep",
+					"\"CoreMotion\"",
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreMotion,
+					"-weak-lSystem",
+					"-weak_framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CandE.CubeSpin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -1808,7 +1873,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		292E68A82485A47E009F0881 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+		292E68A82485A47E009F0881 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
 			requirement = {
