@@ -85,7 +85,13 @@
 	<string></string>
 	<key>Unity_LoadingActivityIndicatorStyle</key>
 	<integer>-1</integer>
+	<key>application-identifer</key>
+	<string>com.CandE.CubeSpin</string>
+	<key>aps-environment</key>
+	<string>production</string>
 	<key>beta-reports-active</key>
 	<true/>
+	<key>get-task-allow</key>
+	<false/>
 </dict>
 </plist>
